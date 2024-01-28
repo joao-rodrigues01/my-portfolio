@@ -1,14 +1,14 @@
 import { createContext, useEffect, useState } from "react";
 
 interface ThemeContextProps {
-  theme: "light" | "dark";
-  setTheme: React.Dispatch<React.SetStateAction<"light" | "dark">>;
+  theme: string;
+  setTheme: React.Dispatch<React.SetStateAction<string>>;
 }
 
 export const ThemeContext = createContext({} as ThemeContextProps);
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [currentTheme, setCurrentTheme] = useState<"light" | "dark">(() => {
+  const [currentTheme, setCurrentTheme] = useState<string>(() => {
     const item = localStorage.getItem("theme");
 
     if (item) {
