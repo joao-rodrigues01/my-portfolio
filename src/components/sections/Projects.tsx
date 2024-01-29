@@ -1,5 +1,5 @@
 import fincheck from "../../assets/images/fincheck.png";
-import swapplay from "../../assets/images/swapplay.png";
+// import swapplay from "../../assets/images/swapplay.png";
 import jobplus from "../../assets/images/job+.png";
 import nativemovies from "../../assets/images/nativemovies.png";
 import nextmovies from "../../assets/images/nextmovies.png";
@@ -58,23 +58,23 @@ export function Projects() {
       source_url: "https://github.com/joao-rodrigues01/next-movies",
       preview_url: "https://next-movies-pi.vercel.app",
     },
-    {
-      id: 4,
-      name: "Swap Play",
-      date: "December 2023",
-      description:
-        "SwapPlay it's a mobile application directly focused on gamers, you can trade your physical copy of the game into a another game on a easy way.",
-      img_url: swapplay,
-      techs: [
-        "React Native",
-        "Typescript",
-        "NodeJS",
-        "NestJS",
-        "Prisma",
-        "JWT",
-      ],
-      source_url: "https://github.com/swap-play/swap-app",
-    },
+    // {
+    //   id: 4,
+    //   name: "Swap Play",
+    //   date: "December 2023",
+    //   description:
+    //     "SwapPlay it's a mobile application directly focused on gamers, you can trade your physical copy of the game into a another game on a easy way.",
+    //   img_url: swapplay,
+    //   techs: [
+    //     "React Native",
+    //     "Typescript",
+    //     "NodeJS",
+    //     "NestJS",
+    //     "Prisma",
+    //     "JWT",
+    //   ],
+    //   source_url: "https://github.com/swap-play/swap-app",
+    // },
     {
       id: 5,
       name: "Job+ - Etec TCC",

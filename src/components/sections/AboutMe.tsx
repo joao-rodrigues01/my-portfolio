@@ -81,28 +81,27 @@ export function AboutMe() {
             </h2>
 
             <p className="text-gray-700 dark:text-gray-300 text-justify">
-              Olá! 👋 Sou um desenvolvedor full stack com dois anos de
-              experiência apaixonado por criar soluções de alto desempenho e
-              inovadoras. Minha jornada no mundo da tecnologia me levou a
-              especializar-me em SpringBoot, React e Node, onde encontrei minha
-              paixão por construir aplicativos web de última geração.
+              Hello! 👋 I'm a FullStack developer writting code for about two
+              years and i love create high level and innovative solutions. My
+              journey in technology world let me to specialize in Node, React
+              and SpringBoot, where i found my passion on build web
+              applications.
             </p>
             <p className="text-gray-700 dark:text-gray-300 text-justify mt-2">
-              Sou proficientemente versado em React e Springboot, o que me
-              permite abordar desafios técnicos com confiança e precisão.
-              Acredito firmemente na importância da inovação e estou sempre
-              ansioso para aprender e colaborar com equipes talentosas. Minha
-              resiliência e proatividade são características que me definem,
-              especialmente quando estou enfrentando projetos desafiadores.
+              I am proficiently versed on Web Development, which allows me to
+              approach technical challenges with confidence and precision. I
+              firmly believe on innovation importance and i'm always excited to
+              learn and collaborate to a tallent teams. My resilliance and
+              proactivity are characteristics that define me, especially when
+              i'm handling with challenging projects.
             </p>
 
             <p className="text-gray-700 dark:text-gray-300 text-justify mt-2">
-              Tenho um compromisso inabalável com a excelência e busco
-              constantemente superar expectativas. Se você está em busca de um
-              talento técnico dedicado, apaixonado por tecnologia e focado em
-              entregar soluções de alto desempenho, estou pronto para contribuir
-              e fazer a diferença. Vamos trabalhar juntos e transformar ideias
-              em realidade!
+              I have a unshakable appointment with excelence and i consistently
+              search to exceed my expetations. If you are searching for a
+              dedicated talent, focused on solve high level solutions, i'm ready
+              to contributte and make the difference. Let's work together and
+              transform new ideas in reality!
             </p>
           </div>
 
