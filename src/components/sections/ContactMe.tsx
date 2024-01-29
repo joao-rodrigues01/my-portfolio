@@ -58,7 +58,7 @@ export function ContactMe() {
 
           <a
             className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8"
-            href="src/assets/docs/CV-Joao-Victor-Rodrigues-Costa%20-%20EN.pdf"
+            href="/docs/CV-Joao-Victor-Rodrigues-Costa%20-%20EN.pdf"
             download="CV-Joao-Victor-Rodrigues-Costa-EN.pdf"
           >
             <svg
