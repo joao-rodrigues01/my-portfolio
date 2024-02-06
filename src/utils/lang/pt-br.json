@@ -1,0 +1,19 @@
+{
+  "homeTitle": "Sou Desenvolvedor Fullstack!",
+  "homeDescription": "Sempre pronto para o próximo passo. Veja alguns dos meu projetos",
+  "projectsButton": "Ver projetos",
+  "contactButton": "Contate-me",
+  "aboutTitle": "Sobre",
+  "presetationTitle": "Apresentação",
+  "presentationText1": "Olá! 👋 Sou desenvolvedor full stack com dois anos de experiência apaixonado por criar soluções de alto desempenho e inovadoras. Minha jornada no mundo da tecnologia me levou a especializar-me em SpringBoot, React e Node, onde encontrei minha paixão por construir aplicativos web de última geração.",
+
+  "presentationText2": "Sou proficientemente versado em React e Springboot, o que me permite abordar desafios técnicos com confiança e precisão. Acredito firmemente na importância da inovação e estou sempre ansioso para aprender e colaborar com equipes talentosas.",
+
+  "presentationText3": "Minha resiliência e proatividade são características que me definem, especialmente quando estou enfrentando projetos desafiadores. Tenho um compromisso inabalável com a excelência e busco constantemente superar expectativas. Se você está em busca de um talento técnico dedicado, apaixonado por tecnologia e focado em entregar soluções de alto desempenho, estou pronto para contribuir e fazer a diferença. Vamos trabalhar juntos e transformar ideias em realidade!",
+
+  "techsTitle": "Tecnologias com que trabalho",
+  "projectsTitle": "Projetos",
+  "educationTitle": "Formação & Experiências",
+  "contactTitle": "Contate-Me",
+  "downloadButton": "Baixar CV"
+}

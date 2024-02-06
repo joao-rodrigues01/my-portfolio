@@ -1,0 +1,19 @@
+{
+  "homeTitle": "I'm a Fullstack Developer!",
+  "homeDescription": "Always ready to the next step. Checkout some of my works",
+  "projectsButton": "See projects",
+  "contactButton": "Contact me",
+  "aboutTitle": "About me",
+  "presetationTitle": "Presentation",
+  "presentationText1": "Hello! 👋 I'm a FullStack developer writting code for about two years and i love create high level and innovative solutions. My journey in technology world let me to specialize in Node, React and SpringBoot, where i found my passion on build web applications.",
+
+  "presentationText2": "I am proficiently versed on Web Development, which allows me to approach technical challenges with confidence and precision. I firmly believe on innovation importance and i'm always excited to learn and collaborate to a tallent teams. My resilliance and proactivity are characteristics that define me, especially when i'm handling with challenging projects.",
+
+  "presentationText3": "I have a unshakable appointment with excelence and i consistently search to exceed my expetations. If you are searching for a dedicated talent, focused on solve high level solutions, i'm ready to contributte and make the difference. Let's work together and transform new ideas in reality!",
+
+  "techsTitle": "Techs i oftenly work with",
+  "projectsTitle": "Projects",
+  "educationTitle": "Education & Experiences",
+  "contactTitle": "Contact Me",
+  "downloadButton": "Download CV"
+}
