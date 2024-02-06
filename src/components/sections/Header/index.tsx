@@ -4,8 +4,13 @@ import moonIcon from "../../../assets/icons/moon.svg";
 import sunIcon from "../../../assets/icons/sun.svg";
 import useMobile from "../../../hooks/useMobile";
 import { Mobile } from "./Mobile";
+import { LanguageSelector } from "../../ui/LanguageSelector";
 
-export function Header() {
+interface HeaderProps {
+  onLanguageChange(lang: string): void;
+}
+
+export function Header({ onLanguageChange }: HeaderProps) {
   const { theme, setTheme } = useContext(ThemeContext);
   const [scrolled, setScrolled] = useState(false);
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -45,12 +50,14 @@ export function Header() {
               setMobileMenuOpen={setMobileMenuOpen}
             />
           ) : (
-            <nav className="flex items-center gap-6 font-medium">
+            <nav className="flex items-center gap-6 font-medium ">
               <a href="#home">Home</a>
               <a href="#about">About Me</a>
               <a href="#projects">Projects</a>
               <a href="#experience">Experiences</a>
               <a href="#contact">Contact me</a>
+              <LanguageSelector onLanguageChange={onLanguageChange} />
+
               <div className="flex items-center justify-center">
                 <button onClick={handleToggleTheme}>
                   {theme === "light" ? (

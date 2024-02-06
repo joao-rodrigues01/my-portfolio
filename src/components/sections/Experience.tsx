@@ -1,9 +1,11 @@
+import { FormattedMessage } from "react-intl";
+
 export function Experience() {
   return (
     <section id="experience" className="py-12">
       <div className="container mx-auto">
         <h1 className="text-center text-3xl lg:text-4xl font-bold mb-6">
-          Education & Experiences
+          <FormattedMessage id="educationTitle" />
         </h1>
 
         <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8">

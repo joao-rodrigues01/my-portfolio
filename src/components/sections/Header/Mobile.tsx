@@ -4,6 +4,7 @@ import moonIcon from "../../../assets/icons/moon.svg";
 import sunIcon from "../../../assets/icons/sun.svg";
 import { ThemeContext } from "../../../context/ThemeContext";
 import { Button } from "../../ui/Button";
+import { LanguageSelector } from "../../ui/LanguageSelector";
 
 interface MobileMenuProps {
   isOpen: boolean;
@@ -11,10 +12,6 @@ interface MobileMenuProps {
 }
 
 interface MobileDropdownProps {
-  // routes: { path: string; name: string }[];
-  // currentSection: string;
-  // toggleDarkMode: (isChecked: boolean) => void;
-  // isDark: boolean;
   isOpen: boolean;
 }
 
@@ -55,12 +52,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
   );
 };
 
-const MobileDropdown: React.FC<MobileDropdownProps> = ({
-  // currentSection,
-  isOpen,
-  // routes,
-  // toggleDarkMode,
-}) => {
+const MobileDropdown: React.FC<MobileDropdownProps> = ({ isOpen }) => {
   const { theme, setTheme } = useContext(ThemeContext);
 
   function handleToggleTheme() {
@@ -78,6 +70,8 @@ const MobileDropdown: React.FC<MobileDropdownProps> = ({
       <a href="#projects">Projects</a>
       <a href="#experience">Experiences</a>
       <a href="#contact">Contact me</a>
+      <LanguageSelector />
+
       <div className="flex items-center justify-center">
         <button onClick={handleToggleTheme}>
           {theme === "light" ? (
