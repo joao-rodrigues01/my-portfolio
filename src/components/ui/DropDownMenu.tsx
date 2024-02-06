@@ -4,7 +4,7 @@ import { ChevronDownIcon } from "@heroicons/react/20/solid";
 // import { cn } from "../../utils/cn";
 
 interface DropDownMenuRootProps {
-  buttonLabel: string;
+  buttonLabel: React.ReactNode;
   children: React.ReactNode;
 }
 
@@ -12,8 +12,7 @@ function DropDownMenuRoot({ children, buttonLabel }: DropDownMenuRootProps) {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 dark:bg-background dark:text-inherit dark:ring-primary dark:hover:bg-secondary transition-all">
-          {/* context */}
+        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-inherit px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-50 dark:bg-background dark:text-inherit dark:hover:bg-secondary transition-all">
           {buttonLabel}
           <ChevronDownIcon
             className="-mr-1 h-5 w-5 text-gray-400 dark:text-inherit"

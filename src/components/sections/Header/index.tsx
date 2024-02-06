@@ -6,11 +6,7 @@ import useMobile from "../../../hooks/useMobile";
 import { Mobile } from "./Mobile";
 import { LanguageSelector } from "../../ui/LanguageSelector";
 
-interface HeaderProps {
-  onLanguageChange(lang: string): void;
-}
-
-export function Header({ onLanguageChange }: HeaderProps) {
+export function Header() {
   const { theme, setTheme } = useContext(ThemeContext);
   const [scrolled, setScrolled] = useState(false);
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -56,7 +52,7 @@ export function Header({ onLanguageChange }: HeaderProps) {
               <a href="#projects">Projects</a>
               <a href="#experience">Experiences</a>
               <a href="#contact">Contact me</a>
-              <LanguageSelector onLanguageChange={onLanguageChange} />
+              <LanguageSelector />
 
               <div className="flex items-center justify-center">
                 <button onClick={handleToggleTheme}>
