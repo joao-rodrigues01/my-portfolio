@@ -1,26 +1,17 @@
-import { useState } from "react";
 import profileImg from "./assets/images/profile.png";
 import { AboutMe } from "./components/sections/AboutMe";
 import { ContactMe } from "./components/sections/ContactMe";
 import { Experience } from "./components/sections/Experience";
 import { Header } from "./components/sections/Header";
 import { Projects } from "./components/sections/Projects";
-import { IntlProvider, FormattedMessage } from "react-intl";
-import { translations } from "./utils/lang/translations";
+import { FormattedMessage } from "react-intl";
+import { LanguageProvider } from "./context/LanguageContext";
 
 function App() {
-  const [locale, setLocale] = useState<"en" | "pt-br">("en");
-
-  const handleLanguageChange = (selectedLocale: "en" | "pt-br") => {
-    setLocale(selectedLocale);
-  };
-
-  const messages = translations[locale];
-
   return (
-    <IntlProvider locale={locale} messages={messages}>
+    <LanguageProvider>
       <div className="h-full w-full bg-background">
-        <Header onLanguageChange={handleLanguageChange} />
+        <Header />
 
         <section
           id="home"
@@ -102,7 +93,7 @@ function App() {
           </span>
         </footer>
       </div>
-    </IntlProvider>
+    </LanguageProvider>
   );
 }
 
