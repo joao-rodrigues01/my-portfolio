@@ -9,9 +9,9 @@ import { FormattedMessage } from "react-intl";
 interface Project {
   id: number;
   name: string;
-  description: string;
+  description_id: string;
+  date_id: string;
   img_url: string;
-  date: string;
   techs: string[];
   preview_url?: string;
   source_url: string;
@@ -22,9 +22,8 @@ export function Projects() {
     {
       id: 1,
       name: "Fincheck",
-      date: "October 2023",
-      description:
-        "A Finance App to manage all incoming and outcoming transactions from your bank accounts. Develop on JStack Course.",
+      date_id: "project1Date",
+      description_id: "project1Description",
       img_url: fincheck,
       techs: [
         "React",
@@ -40,9 +39,8 @@ export function Projects() {
     {
       id: 2,
       name: "MyContacts",
-      date: "August 2023",
-      description:
-        "A simple App to manage all your contacts. Using a lot of SOLID principels, API calls and almost no library installed.",
+      date_id: "project2Date",
+      description_id: "project2Description",
       img_url: mycontacts,
       techs: ["React", "Styled Components", "NodeJS", "Express"],
       source_url: "https://github.com/joao-rodrigues01/mycontacts-react",
@@ -51,9 +49,8 @@ export function Projects() {
     {
       id: 3,
       name: "Next Movies",
-      date: "November 2023",
-      description:
-        "A Entertainment App to see all the movies, animes and TV Shows ongoing right now. Connected with TMDB API.",
+      date_id: "project3Date",
+      description_id: "project3Description",
       img_url: nextmovies,
       techs: ["React", "Styled Components", "NextJS"],
       source_url: "https://github.com/joao-rodrigues01/next-movies",
@@ -62,9 +59,8 @@ export function Projects() {
     {
       id: 4,
       name: "Swap Play",
-      date: "December 2023",
-      description:
-        "SwapPlay it's a mobile application directly focused on gamers, you can trade your physical copy of the game into a another game on a easy way.",
+      date_id: "project4Date",
+      description_id: "project4Description",
       img_url: swapplay,
       techs: [
         "React Native",
@@ -79,9 +75,8 @@ export function Projects() {
     {
       id: 5,
       name: "Job+ - Etec TCC",
-      date: "November 2021",
-      description:
-        "Job+ it's the final project that we made on ETEC to conclude the course. The App is a solution on pandemic moment to self employers get a job and contact a person who need his services.",
+      date_id: "project5Date",
+      description_id: "project5Description",
       img_url: jobplus,
       techs: ["React Native", "Typescript", "NodeJS", "JWT"],
       source_url: "https://github.com/CycleCorporation/cycle-mobile",
@@ -89,9 +84,8 @@ export function Projects() {
     {
       id: 6,
       name: "Nattive Movies",
-      date: "November 2023",
-      description:
-        "A mobile App very similar to Next Movies but developed in React Native.",
+      date_id: "project6Date",
+      description_id: "project6Description",
       img_url: nativemovies,
       techs: ["React Native", "Expo", "Lottie"],
       source_url: "https://github.com/joao-rodrigues01/react-native-movies",
@@ -120,10 +114,10 @@ export function Projects() {
               <div className="p-4 lg:p-6">
                 <h2 className="text-xl font-bold mb-1">{project.name}</h2>
                 <span className="text-sm text-gray-800 dark:text-gray-300">
-                  {project.date}
+                  <FormattedMessage id={project.date_id} />
                 </span>
                 <p className="text-sm text-justify mb-3 text-gray-700 dark:text-gray-400">
-                  {project.description}
+                  <FormattedMessage id={project.description_id} />
                 </p>
 
                 <div className="flex flex-wrap gap-2.5">

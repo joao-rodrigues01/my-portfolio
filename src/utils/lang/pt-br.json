@@ -1,5 +1,5 @@
 {
-  "homeTitle": "Sou Desenvolvedor Fullstack!",
+  "homeTitle": "Sou um Dev Fullstack!",
   "homeDescription": "Sempre pronto para o próximo passo. Veja alguns dos meu projetos",
   "projectsButton": "Ver projetos",
   "contactButton": "Contate-me",
@@ -12,7 +12,27 @@
   "presentationText3": "Minha resiliência e proatividade são características que me definem, especialmente quando estou enfrentando projetos desafiadores. Tenho um compromisso inabalável com a excelência e busco constantemente superar expectativas. Se você está em busca de um talento técnico dedicado, apaixonado por tecnologia e focado em entregar soluções de alto desempenho, estou pronto para contribuir e fazer a diferença. Vamos trabalhar juntos e transformar ideias em realidade!",
 
   "techsTitle": "Tecnologias com que trabalho",
+
   "projectsTitle": "Projetos",
+
+  "project1Date": "Outubro 2023",
+  "project1Description": "Um App de finanças para gerenciar todas as transações de saída e depósito das suas contas bancárias. Desenvolvido durante o curso do JStack",
+
+  "project2Date": "Agosto 2023",
+  "project2Description": "Um App simples para gerenciar os seus contatos. Utilizando bastante do princípio SOLID, chamadas API e praticamente nenhuma biblioteca instalada.",
+
+  "project3Date": "Novembro 2023",
+  "project3Description": "Uma Aplicação de entretenimento para pesquisar todos filmes, animes e séries do momento. Conectado com a API do TMDB.",
+
+  "project4Date": "Dezembro 2023",
+  "project4Description": "SwapPlay é um app mobile focado nos gamers, você pode trocar seus jogos de midia fisíca de um jeito muito fácil.",
+
+  "project5Date": "Novembro 2021",
+  "project5Description": "Job+ é o projeto final que desenvolvemos na ETEC para concluir o curso. O App é uma solução durante o momento de pandemia, para autônomos conseguirem um trabalho e contactar as pessoas que precisam de seu serviço.",
+
+  "project6Date": "Dezembro 2021",
+  "project6Description": "Um App parecido com o Next Movies mas feito com React Native.",
+
   "educationTitle": "Formação & Experiências",
   "contactTitle": "Contate-Me",
   "downloadButton": "Baixar CV"

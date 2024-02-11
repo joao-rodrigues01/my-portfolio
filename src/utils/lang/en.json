@@ -12,7 +12,27 @@
   "presentationText3": "I have a unshakable appointment with excelence and i consistently search to exceed my expetations. If you are searching for a dedicated talent, focused on solve high level solutions, i'm ready to contributte and make the difference. Let's work together and transform new ideas in reality!",
 
   "techsTitle": "Techs i oftenly work with",
+
   "projectsTitle": "Projects",
+
+  "project1Date": "October 2023",
+  "project1Description": "A Finance App to manage all incoming and outcoming transactions from your bank accounts. Develop on JStack Course.",
+
+  "project2Date": "August 2023",
+  "project2Description": "A simple App to manage all your contacts. Using a lot of SOLID principels, API calls and almost no library installed.",
+
+  "project3Date": "November 2023",
+  "project3Description": "A Entertainment App to see all the movies, animes and TV Shows ongoing right now. Connected with TMDB API.",
+
+  "project4Date": "December 2023",
+  "project4Description": "SwapPlay it's a mobile application directly focused on gamers, you can trade your physical copy of the game into a another game on a easy way.",
+
+  "project5Date": "November 2021",
+  "project5Description": "Job+ it's the final project that we made on ETEC to conclude the course. The App is a solution on pandemic moment to self employers get a job and contact a person who need his services.",
+
+  "project6Date": "December 2021",
+  "project6Description": "A mobile App very similar to Next Movies but developed in React Native.",
+
   "educationTitle": "Education & Experiences",
   "contactTitle": "Contact Me",
   "downloadButton": "Download CV"

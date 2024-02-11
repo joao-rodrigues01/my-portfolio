@@ -51,6 +51,43 @@ export function Experience() {
                 </svg>
               </span>
               <h3 className="flex items-center text-lg font-semibold text-gray-900 dark:text-white">
+                Front-End Developer
+              </h3>
+              <p className="flex items-center text-gray-700 dark:text-gray-300">
+                GFT - Technologies
+              </p>
+              <time className="mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                Feb 2024 - At the moment
+              </time>
+              <span className="mb-4 text-small lg:text-base text-justify font-normal text-gray-500 dark:text-gray-400">
+                <div className="mt-2 flex flex-col gap-4">
+                  {/* <p>
+                    • Working at Memora developing NFe management applications,
+                    EFD, a web portal for citizens to register NFes to compete
+                    for benefits.
+                  </p>
+                  <p>
+                    • Building APIs with integration with other SEFAZ
+                    registration systems.
+                  </p> */}
+                </div>
+              </span>
+            </li>
+
+            <li className="mb-10 ms-8">
+              <span className="absolute flex items-center justify-center w-7 h-7 bg-blue-100 rounded-full -start-3.5 ring-8 ring-background dark:bg-blue-900">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  fill="currentColor"
+                  viewBox="0 0 256 256"
+                  className="text-primary dark:text-blue-300"
+                >
+                  <path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96Zm64,24V200H96V72ZM40,72H80V200H40ZM216,200H176V72h40V200Z"></path>
+                </svg>
+              </span>
+              <h3 className="flex items-center text-lg font-semibold text-gray-900 dark:text-white">
                 Fullstack Junior Developer
               </h3>
               <p className="flex items-center text-gray-700 dark:text-gray-300">
