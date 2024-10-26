@@ -6,10 +6,12 @@ import { Header } from "./components/sections/Header";
 import { Projects } from "./components/sections/Projects";
 import { FormattedMessage } from "react-intl";
 import { LanguageProvider } from "./context/LanguageContext";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
     <LanguageProvider>
+      <Analytics />
       <div className="h-full w-full bg-background">
         <Header />
 

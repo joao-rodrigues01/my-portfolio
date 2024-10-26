@@ -11,7 +11,7 @@ export function LanguageSelector() {
     <img
       src={`https://flagcdn.com/w40/${currentLanguage?.flag}.png`}
       srcSet={`https://flagcdn.com/w60/${currentLanguage?.flag}.png 2x`}
-      width="30"
+      width="28"
       alt={currentLanguage?.title}
     />
   );
